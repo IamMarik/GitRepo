@@ -1,0 +1,20 @@
+xcassets:
+  inputs:
+    - GitRepo/Resources/Images/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: GitRepo/Resources/Images/Assets.swift
+
+fonts:
+  inputs:
+    - GitRepo/Resources/Fonts/
+  outputs:
+    - templateName: swift4
+      output: GitRepo/Resources/Fonts/Fonts.swift
+
+strings:
+  inputs:
+    - GitRepo/Resources/Strings/Localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: GitRepo/Resources/Strings/Strings.swift
